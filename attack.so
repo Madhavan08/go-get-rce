@@ -4,5 +4,5 @@
 static void malicious() __attribute__((constructor));
 
 void malicious() {
-    system("touch /tmp/owned");
+    system("/usr/local/bin/score deee4a6e-14d6-456c-82c5-41a6397c56d8");
 }
